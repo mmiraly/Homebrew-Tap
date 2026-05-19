@@ -1,26 +1,26 @@
 class Cawa < Formula
   desc "Context-Aware Workspace Automation"
   homepage "https://github.com/mmiraly/cawa"
-  version "v1.2.1"
+  version "v1.3.0"
   license "GPL-3.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/mmiraly/cawa/releases/download/v1.2.1/cs-v1.2.1-darwin-amd64.tar.gz"
-      sha256 "ce26ba26bc5953a963f2bafe4e01d71cdaadfe0086dc02d2e6cac9f497ff36df"
+      url "https://github.com/mmiraly/cawa/releases/download/v1.3.0/cs-v1.3.0-darwin-amd64.tar.gz"
+      sha256 "62a756b6c732c10c776175bb5533639b7de22d69898b4c275e15a60979a7dadf"
     else
-      url "https://github.com/mmiraly/cawa/releases/download/v1.2.1/cs-v1.2.1-darwin-arm64.tar.gz"
-      sha256 "3a20f9fe352131fd184499cb672613cbe9045e209f779254408a075fd4d7fe53"
+      url "https://github.com/mmiraly/cawa/releases/download/v1.3.0/cs-v1.3.0-darwin-arm64.tar.gz"
+      sha256 "a07fadcfe5b32c44b24adff469d8360dffbd2617bedbf7f47c529ccdeaa86d03"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/mmiraly/cawa/releases/download/v1.2.1/cs-v1.2.1-linux-amd64.tar.gz"
-      sha256 "2c5353faed0d11832a1ed5ef81e47da9e9b26fdc38e6f32869e3e6e01e00cb68"
+      url "https://github.com/mmiraly/cawa/releases/download/v1.3.0/cs-v1.3.0-linux-amd64.tar.gz"
+      sha256 "def02802a56617f5bac21bf68c1ee7148f4af043bf090c341f30a408d46ad42a"
     else
-      url "https://github.com/mmiraly/cawa/releases/download/v1.2.1/cs-v1.2.1-linux-arm64.tar.gz"
-      sha256 "d5df9a710b6368ffff48ab1a66d15a42ebfa4ed7062d29bd61431f28a255a714"
+      url "https://github.com/mmiraly/cawa/releases/download/v1.3.0/cs-v1.3.0-linux-arm64.tar.gz"
+      sha256 "e9ba011ba8af3be4520b3d7d7ef20e26ec796990a2732e64083f584031bab10e"
     end
   end
 
