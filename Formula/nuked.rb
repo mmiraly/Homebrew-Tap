@@ -1,26 +1,26 @@
 class Nuked < Formula
   desc "Nuke stale project dependency folders."
   homepage "https://github.com/mmiraly/nukeD"
-  version "v0.1.0"
+  version "v1.0.0"
   license "GPL-3.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/mmiraly/nukeD/releases/download/v0.1.0/nuked-v0.1.0-darwin-amd64.tar.gz"
-      sha256 "1da328a8aaf5d12d3e47d3351910bedfd87b493ff77c960f7db5ad6642da1471"
+      url "https://github.com/mmiraly/nukeD/releases/download/v1.0.0/nuked-v1.0.0-darwin-amd64.tar.gz"
+      sha256 "eef1b02f71d60aac562bbb7e3ac54034007106755bffbace39ec8a003f8379ff"
     else
-      url "https://github.com/mmiraly/nukeD/releases/download/v0.1.0/nuked-v0.1.0-darwin-arm64.tar.gz"
-      sha256 "67cbd458b8ce614a4d52bdea8919daab13e146d5af7a2d7f400f06a82f7d34cd"
+      url "https://github.com/mmiraly/nukeD/releases/download/v1.0.0/nuked-v1.0.0-darwin-arm64.tar.gz"
+      sha256 "012ff167871ab0a6762ed4cbae0447f1f91c071c68888a6230ea9eef88105ecf"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/mmiraly/nukeD/releases/download/v0.1.0/nuked-v0.1.0-linux-amd64.tar.gz"
-      sha256 "9fc6faea223f8e9225e30d3d66d17ac9e17721d4bc8f3568096065735256bcb3"
+      url "https://github.com/mmiraly/nukeD/releases/download/v1.0.0/nuked-v1.0.0-linux-amd64.tar.gz"
+      sha256 "46b62c1ef3af506d9d480a24ff96c5e84c346defef7df8978ccce5689037816f"
     else
-      url "https://github.com/mmiraly/nukeD/releases/download/v0.1.0/nuked-v0.1.0-linux-arm64.tar.gz"
-      sha256 "c9c1af79de3c7fa33c94a5cec88ab9bd595801cca9b712db60bd8779de977d10"
+      url "https://github.com/mmiraly/nukeD/releases/download/v1.0.0/nuked-v1.0.0-linux-arm64.tar.gz"
+      sha256 "6ee069e532e6d717bbf03f4415ac34cb7de906956770160f3cc18935242bc0f7"
     end
   end
 
